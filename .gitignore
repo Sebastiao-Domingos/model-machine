@@ -1,0 +1,26 @@
+# Virtualenv
+venv/
+.env/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs e arquivos temporários
+*.log
+*.sqlite3
+*.db
+*.pot
+*.pyc
+
+# Configs de IDEs
+.vscode/
+.idea/
+
+# Outros
+.DS_Store
+*.egg-info/
+dist/
+build/
