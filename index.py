@@ -17,7 +17,6 @@ data["target"] = data["Close"][1:len(data)].reset_index(drop=True)
 #Pegamos a ultima linha, que iremos usar para prever
 prev = data[-1::].drop("target" ,axis=1)
 
-
 #Pegar o valores de treino
 train = data.drop(data[-1::].index , axis=0)
 
